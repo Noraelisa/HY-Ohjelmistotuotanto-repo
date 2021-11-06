@@ -42,7 +42,7 @@ class TestVarasto(unittest.TestCase):
 
         self.assertAlmostEqual(saatu_maara, 2)
 
-    def test_ottaminen_lisaa_tilaa(self):
+    def test_ottam
         self.varasto.lisaa_varastoon(8)
 
         self.varasto.ota_varastosta(2)
